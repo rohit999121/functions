@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+int fibo(int d)
+{
+    int i,j,k,a=1,b=2,c,ans;
+    cout << a << " " << b <<endl;
+     for(i=1;i<=d;i++)
+   {
+       c=a+b;
+       a=b;
+       b=c;
+    cout << c << endl;
+   }
+   return ans;
+}
+int main()
+{
+    int n,ans;
+    cout << "Hello how are you" << endl;
+    cout << "enter number for fibonacci" << endl;
+    cin >> n;
+    ans=fibo(n);
+    return 0;
+}
